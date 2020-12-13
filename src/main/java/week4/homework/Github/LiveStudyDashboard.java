@@ -23,7 +23,7 @@ public class LiveStudyDashboard {
     // 1. 첫 번째 이슈에서 user들 모으기
     // 2. 이슈 별, 사용자의 참석여부 체크
     // 3. 사용자들의 참여율 return
-    
+
 
 }
 
