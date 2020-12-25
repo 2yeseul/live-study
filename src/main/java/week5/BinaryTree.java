@@ -30,7 +30,7 @@ public class BinaryTree {
 
     public static void main(String... args) {
         List<Node> nodeList = new ArrayList<>();
-        for(int i=0;i<7;i++) {
+        for(int i=0;i<15;i++) {
             nodeList.add(new Node(i));
             if(i % 2 == 1) nodeList.get(i / 2).setLeft(nodeList.get(i));
             else if((i % 2 == 0) && (i > 0)) nodeList.get((i / 2) - 1).setRight(nodeList.get(i));
